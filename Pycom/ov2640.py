@@ -18,7 +18,7 @@ class ov2640(object):
         self.standby = False
 
 
-        self.hspi = SPI(baudrate=80000000, polarity=0, phase=0,bits=8)#,pins=('P5','P6','P7'))#CLK, MOSI and MISO
+        self.hspi = SPI(baudrate=80000000, polarity=0, phase=0,bits=8)
 
         self.i2c = I2C(pins=('P21','P22'))
 
