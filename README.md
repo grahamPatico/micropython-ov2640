@@ -3,6 +3,8 @@
 
 ## Usage - Hardware Setup
 
+In my test, using Gpy and expansion board.
+
 (Vcc and GND pins are not included here):
 I2C and SPI pins
 
