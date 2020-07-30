@@ -6,7 +6,7 @@ from machine import SD
 import os
 import math
 
-FNAME = '/sd/test.jpg'
+FNAME = '/sd/test.jpg'#saving to SD card on expansion board
 sd = SD()
 os.mount(sd, '/sd')
 
